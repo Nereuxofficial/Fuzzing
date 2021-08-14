@@ -7,4 +7,4 @@ edition = "2018"
 
 [dependencies]
 honggfuzz = "0.5"
-git-url-parse = "0.3.1"
+exmex = "0.8.4"
