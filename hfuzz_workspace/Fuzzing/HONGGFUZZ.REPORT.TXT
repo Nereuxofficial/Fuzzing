@@ -94,3 +94,145 @@ STACK:
  <0x00007ffff7c52b25> [func:UNKNOWN file: line:0 module:/usr/lib/libc-2.33.so]
  <0x00005555555b913e> [func:UNKNOWN file: line:0 module:/mnt/Festplatte/CLionProjects/Fuzzing/hfuzz_target/x86_64-unknown-linux-gnu/release/Fuzzing]
 =====================================================================
+=====================================================================
+TIME: 2021-08-15.00:06:40
+=====================================================================
+FUZZER ARGS:
+ mutationsPerRun : 5
+ externalCmd     : NULL
+ fuzzStdin       : FALSE
+ timeout         : 1 (sec)
+ ignoreAddr      : (nil)
+ ASLimit         : 0 (MiB)
+ RSSLimit        : 0 (MiB)
+ DATALimit       : 0 (MiB)
+ wordlistFile    : NULL
+ dynFileMethod   : 
+ fuzzTarget      : hfuzz_target/x86_64-unknown-linux-gnu/release/Fuzzing 
+CRASH:
+DESCRIPTION: 
+ORIG_FNAME: 4b99f37e5e2e67965ff679d977fe7e10.0000000b.honggfuzz.cov
+FUZZ_FNAME: hfuzz_workspace/Fuzzing/SIGABRT.PC.7ffff7c67d22.STACK.1a998275c5.CODE.-6.ADDR.0.INSTR.mov____0x108(%rsp),%rax.fuzz
+PID: 1711636
+SIGNAL: SIGABRT (6)
+PC: 0x7ffff7c67d22
+FAULT ADDRESS: 0x0
+INSTRUCTION: mov____0x108(%rsp),%rax
+STACK HASH: 0000001a998275c5
+STACK:
+ <0x00007ffff7c51862> [func:UNKNOWN file: line:0 module:/usr/lib/libc-2.33.so]
+ <0x00005555556ffa97> [func:UNKNOWN file: line:0 module:/mnt/Festplatte/CLionProjects/Fuzzing/hfuzz_target/x86_64-unknown-linux-gnu/release/Fuzzing]
+ <0x00005555555b7a46> [func:UNKNOWN file: line:0 module:/mnt/Festplatte/CLionProjects/Fuzzing/hfuzz_target/x86_64-unknown-linux-gnu/release/Fuzzing]
+ <0x00005555556ea627> [func:UNKNOWN file: line:0 module:/mnt/Festplatte/CLionProjects/Fuzzing/hfuzz_target/x86_64-unknown-linux-gnu/release/Fuzzing]
+ <0x00005555556fd219> [func:UNKNOWN file: line:0 module:/mnt/Festplatte/CLionProjects/Fuzzing/hfuzz_target/x86_64-unknown-linux-gnu/release/Fuzzing]
+ <0x00005555556fccc0> [func:UNKNOWN file: line:0 module:/mnt/Festplatte/CLionProjects/Fuzzing/hfuzz_target/x86_64-unknown-linux-gnu/release/Fuzzing]
+ <0x00005555556fb504> [func:UNKNOWN file: line:0 module:/mnt/Festplatte/CLionProjects/Fuzzing/hfuzz_target/x86_64-unknown-linux-gnu/release/Fuzzing]
+ <0x00005555556fcc29> [func:UNKNOWN file: line:0 module:/mnt/Festplatte/CLionProjects/Fuzzing/hfuzz_target/x86_64-unknown-linux-gnu/release/Fuzzing]
+ <0x00005555555b87d1> [func:UNKNOWN file: line:0 module:/mnt/Festplatte/CLionProjects/Fuzzing/hfuzz_target/x86_64-unknown-linux-gnu/release/Fuzzing]
+ <0x00005555555b8792> [func:UNKNOWN file: line:0 module:/mnt/Festplatte/CLionProjects/Fuzzing/hfuzz_target/x86_64-unknown-linux-gnu/release/Fuzzing]
+ <0x00005555555be23a> [func:UNKNOWN file: line:0 module:/mnt/Festplatte/CLionProjects/Fuzzing/hfuzz_target/x86_64-unknown-linux-gnu/release/Fuzzing]
+ <0x00005555555b9347> [func:UNKNOWN file: line:0 module:/mnt/Festplatte/CLionProjects/Fuzzing/hfuzz_target/x86_64-unknown-linux-gnu/release/Fuzzing]
+ <0x00005555555b92a8> [func:UNKNOWN file: line:0 module:/mnt/Festplatte/CLionProjects/Fuzzing/hfuzz_target/x86_64-unknown-linux-gnu/release/Fuzzing]
+ <0x00005555555b922a> [func:UNKNOWN file: line:0 module:/mnt/Festplatte/CLionProjects/Fuzzing/hfuzz_target/x86_64-unknown-linux-gnu/release/Fuzzing]
+ <0x00005555555b94a5> [func:UNKNOWN file: line:0 module:/mnt/Festplatte/CLionProjects/Fuzzing/hfuzz_target/x86_64-unknown-linux-gnu/release/Fuzzing]
+ <0x00005555555b93be> [func:UNKNOWN file: line:0 module:/mnt/Festplatte/CLionProjects/Fuzzing/hfuzz_target/x86_64-unknown-linux-gnu/release/Fuzzing]
+ <0x00005555555b9548> [func:UNKNOWN file: line:0 module:/mnt/Festplatte/CLionProjects/Fuzzing/hfuzz_target/x86_64-unknown-linux-gnu/release/Fuzzing]
+ <0x00005555556fd6fa> [func:UNKNOWN file: line:0 module:/mnt/Festplatte/CLionProjects/Fuzzing/hfuzz_target/x86_64-unknown-linux-gnu/release/Fuzzing]
+ <0x00005555555b951b> [func:UNKNOWN file: line:0 module:/mnt/Festplatte/CLionProjects/Fuzzing/hfuzz_target/x86_64-unknown-linux-gnu/release/Fuzzing]
+ <0x00007ffff7c52b25> [func:UNKNOWN file: line:0 module:/usr/lib/libc-2.33.so]
+ <0x00005555555b910e> [func:UNKNOWN file: line:0 module:/mnt/Festplatte/CLionProjects/Fuzzing/hfuzz_target/x86_64-unknown-linux-gnu/release/Fuzzing]
+=====================================================================
+=====================================================================
+TIME: 2021-08-15.00:33:15
+=====================================================================
+FUZZER ARGS:
+ mutationsPerRun : 5
+ externalCmd     : NULL
+ fuzzStdin       : FALSE
+ timeout         : 1 (sec)
+ ignoreAddr      : (nil)
+ ASLimit         : 0 (MiB)
+ RSSLimit        : 0 (MiB)
+ DATALimit       : 0 (MiB)
+ wordlistFile    : NULL
+ dynFileMethod   : 
+ fuzzTarget      : hfuzz_target/x86_64-unknown-linux-gnu/release/Fuzzing 
+CRASH:
+DESCRIPTION: 
+ORIG_FNAME: 8363efeae6066ab72ce3c04f3a779aa5.00000045.honggfuzz.cov
+FUZZ_FNAME: hfuzz_workspace/Fuzzing/SIGABRT.PC.7ffff7c67d22.STACK.1a92ce3d84.CODE.-6.ADDR.0.INSTR.mov____0x108(%rsp),%rax.fuzz
+PID: 1732791
+SIGNAL: SIGABRT (6)
+PC: 0x7ffff7c67d22
+FAULT ADDRESS: 0x0
+INSTRUCTION: mov____0x108(%rsp),%rax
+STACK HASH: 0000001a92ce3d84
+STACK:
+ <0x00007ffff7c51862> [func:UNKNOWN file: line:0 module:/usr/lib/libc-2.33.so]
+ <0x00005555556ffa97> [func:UNKNOWN file: line:0 module:/mnt/Festplatte/CLionProjects/Fuzzing/hfuzz_target/x86_64-unknown-linux-gnu/release/Fuzzing]
+ <0x00005555555b7a46> [func:UNKNOWN file: line:0 module:/mnt/Festplatte/CLionProjects/Fuzzing/hfuzz_target/x86_64-unknown-linux-gnu/release/Fuzzing]
+ <0x00005555556ea627> [func:UNKNOWN file: line:0 module:/mnt/Festplatte/CLionProjects/Fuzzing/hfuzz_target/x86_64-unknown-linux-gnu/release/Fuzzing]
+ <0x00005555556fd219> [func:UNKNOWN file: line:0 module:/mnt/Festplatte/CLionProjects/Fuzzing/hfuzz_target/x86_64-unknown-linux-gnu/release/Fuzzing]
+ <0x00005555556fcc92> [func:UNKNOWN file: line:0 module:/mnt/Festplatte/CLionProjects/Fuzzing/hfuzz_target/x86_64-unknown-linux-gnu/release/Fuzzing]
+ <0x00005555556fb504> [func:UNKNOWN file: line:0 module:/mnt/Festplatte/CLionProjects/Fuzzing/hfuzz_target/x86_64-unknown-linux-gnu/release/Fuzzing]
+ <0x00005555556fcc29> [func:UNKNOWN file: line:0 module:/mnt/Festplatte/CLionProjects/Fuzzing/hfuzz_target/x86_64-unknown-linux-gnu/release/Fuzzing]
+ <0x00005555555b87d1> [func:UNKNOWN file: line:0 module:/mnt/Festplatte/CLionProjects/Fuzzing/hfuzz_target/x86_64-unknown-linux-gnu/release/Fuzzing]
+ <0x00005555555b871d> [func:UNKNOWN file: line:0 module:/mnt/Festplatte/CLionProjects/Fuzzing/hfuzz_target/x86_64-unknown-linux-gnu/release/Fuzzing]
+ <0x00005555555be50c> [func:UNKNOWN file: line:0 module:/mnt/Festplatte/CLionProjects/Fuzzing/hfuzz_target/x86_64-unknown-linux-gnu/release/Fuzzing]
+ <0x00005555555b9347> [func:UNKNOWN file: line:0 module:/mnt/Festplatte/CLionProjects/Fuzzing/hfuzz_target/x86_64-unknown-linux-gnu/release/Fuzzing]
+ <0x00005555555b92a8> [func:UNKNOWN file: line:0 module:/mnt/Festplatte/CLionProjects/Fuzzing/hfuzz_target/x86_64-unknown-linux-gnu/release/Fuzzing]
+ <0x00005555555b922a> [func:UNKNOWN file: line:0 module:/mnt/Festplatte/CLionProjects/Fuzzing/hfuzz_target/x86_64-unknown-linux-gnu/release/Fuzzing]
+ <0x00005555555b94a5> [func:UNKNOWN file: line:0 module:/mnt/Festplatte/CLionProjects/Fuzzing/hfuzz_target/x86_64-unknown-linux-gnu/release/Fuzzing]
+ <0x00005555555b93be> [func:UNKNOWN file: line:0 module:/mnt/Festplatte/CLionProjects/Fuzzing/hfuzz_target/x86_64-unknown-linux-gnu/release/Fuzzing]
+ <0x00005555555b9548> [func:UNKNOWN file: line:0 module:/mnt/Festplatte/CLionProjects/Fuzzing/hfuzz_target/x86_64-unknown-linux-gnu/release/Fuzzing]
+ <0x00005555556fd6fa> [func:UNKNOWN file: line:0 module:/mnt/Festplatte/CLionProjects/Fuzzing/hfuzz_target/x86_64-unknown-linux-gnu/release/Fuzzing]
+ <0x00005555555b951b> [func:UNKNOWN file: line:0 module:/mnt/Festplatte/CLionProjects/Fuzzing/hfuzz_target/x86_64-unknown-linux-gnu/release/Fuzzing]
+ <0x00007ffff7c52b25> [func:UNKNOWN file: line:0 module:/usr/lib/libc-2.33.so]
+ <0x00005555555b910e> [func:UNKNOWN file: line:0 module:/mnt/Festplatte/CLionProjects/Fuzzing/hfuzz_target/x86_64-unknown-linux-gnu/release/Fuzzing]
+=====================================================================
+=====================================================================
+TIME: 2021-08-15.04:28:04
+=====================================================================
+FUZZER ARGS:
+ mutationsPerRun : 5
+ externalCmd     : NULL
+ fuzzStdin       : FALSE
+ timeout         : 1 (sec)
+ ignoreAddr      : (nil)
+ ASLimit         : 0 (MiB)
+ RSSLimit        : 0 (MiB)
+ DATALimit       : 0 (MiB)
+ wordlistFile    : NULL
+ dynFileMethod   : 
+ fuzzTarget      : hfuzz_target/x86_64-unknown-linux-gnu/release/Fuzzing 
+CRASH:
+DESCRIPTION: 
+ORIG_FNAME: b2f602c2e67fb3aadff5f9d06368122e.000001c8.honggfuzz.cov
+FUZZ_FNAME: hfuzz_workspace/Fuzzing/SIGABRT.PC.7ffff7c67d22.STACK.e906a35c3.CODE.-6.ADDR.0.INSTR.mov____0x108(%rsp),%rax.fuzz
+PID: 1924911
+SIGNAL: SIGABRT (6)
+PC: 0x7ffff7c67d22
+FAULT ADDRESS: 0x0
+INSTRUCTION: mov____0x108(%rsp),%rax
+STACK HASH: 0000000e906a35c3
+STACK:
+ <0x00007ffff7c51862> [func:UNKNOWN file: line:0 module:/usr/lib/libc-2.33.so]
+ <0x00005555556ffa97> [func:UNKNOWN file: line:0 module:/mnt/Festplatte/CLionProjects/Fuzzing/hfuzz_target/x86_64-unknown-linux-gnu/release/Fuzzing]
+ <0x00005555555b7a46> [func:UNKNOWN file: line:0 module:/mnt/Festplatte/CLionProjects/Fuzzing/hfuzz_target/x86_64-unknown-linux-gnu/release/Fuzzing]
+ <0x00005555556ea627> [func:UNKNOWN file: line:0 module:/mnt/Festplatte/CLionProjects/Fuzzing/hfuzz_target/x86_64-unknown-linux-gnu/release/Fuzzing]
+ <0x00005555556fd219> [func:UNKNOWN file: line:0 module:/mnt/Festplatte/CLionProjects/Fuzzing/hfuzz_target/x86_64-unknown-linux-gnu/release/Fuzzing]
+ <0x00005555555c1d1b> [func:UNKNOWN file: line:0 module:/mnt/Festplatte/CLionProjects/Fuzzing/hfuzz_target/x86_64-unknown-linux-gnu/release/Fuzzing]
+ <0x00005555555c1ce4> [func:UNKNOWN file: line:0 module:/mnt/Festplatte/CLionProjects/Fuzzing/hfuzz_target/x86_64-unknown-linux-gnu/release/Fuzzing]
+ <0x00005555555aadac> [func:UNKNOWN file: line:0 module:/mnt/Festplatte/CLionProjects/Fuzzing/hfuzz_target/x86_64-unknown-linux-gnu/release/Fuzzing]
+ <0x00005555555be60e> [func:UNKNOWN file: line:0 module:/mnt/Festplatte/CLionProjects/Fuzzing/hfuzz_target/x86_64-unknown-linux-gnu/release/Fuzzing]
+ <0x00005555555b9347> [func:UNKNOWN file: line:0 module:/mnt/Festplatte/CLionProjects/Fuzzing/hfuzz_target/x86_64-unknown-linux-gnu/release/Fuzzing]
+ <0x00005555555b92a8> [func:UNKNOWN file: line:0 module:/mnt/Festplatte/CLionProjects/Fuzzing/hfuzz_target/x86_64-unknown-linux-gnu/release/Fuzzing]
+ <0x00005555555b922a> [func:UNKNOWN file: line:0 module:/mnt/Festplatte/CLionProjects/Fuzzing/hfuzz_target/x86_64-unknown-linux-gnu/release/Fuzzing]
+ <0x00005555555b94a5> [func:UNKNOWN file: line:0 module:/mnt/Festplatte/CLionProjects/Fuzzing/hfuzz_target/x86_64-unknown-linux-gnu/release/Fuzzing]
+ <0x00005555555b93be> [func:UNKNOWN file: line:0 module:/mnt/Festplatte/CLionProjects/Fuzzing/hfuzz_target/x86_64-unknown-linux-gnu/release/Fuzzing]
+ <0x00005555555b9548> [func:UNKNOWN file: line:0 module:/mnt/Festplatte/CLionProjects/Fuzzing/hfuzz_target/x86_64-unknown-linux-gnu/release/Fuzzing]
+ <0x00005555556fd6fa> [func:UNKNOWN file: line:0 module:/mnt/Festplatte/CLionProjects/Fuzzing/hfuzz_target/x86_64-unknown-linux-gnu/release/Fuzzing]
+ <0x00005555555b951b> [func:UNKNOWN file: line:0 module:/mnt/Festplatte/CLionProjects/Fuzzing/hfuzz_target/x86_64-unknown-linux-gnu/release/Fuzzing]
+ <0x00007ffff7c52b25> [func:UNKNOWN file: line:0 module:/usr/lib/libc-2.33.so]
+ <0x00005555555b910e> [func:UNKNOWN file: line:0 module:/mnt/Festplatte/CLionProjects/Fuzzing/hfuzz_target/x86_64-unknown-linux-gnu/release/Fuzzing]
+=====================================================================
