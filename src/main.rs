@@ -41,4 +41,19 @@ mod tests {
         println!("{:?}", fuzz);
         eval_str(fuzz.as_str());
     }
+    #[test]
+    fn fourth_crash(){
+        // Also crashes at num_str.parse(ParseFloatError)
+        let fuzz = std::fs::read_to_string("hfuzz_workspace/Fuzzing/SIGABRT.PC.7ffff7c67d22.STACK.e4a70c637.CODE.-6.ADDR.0.INSTR.[NOT_MMAPED].fuzz").unwrap();
+        println!("{:?}", fuzz);
+        eval_str(fuzz.as_str());
+    }
+    #[test]
+    fn fifth_crash(){
+        // byte index 7 is not a char boundary
+        // It is assumed that index 7 is a char, which in this case is not given
+        let fuzz = std::fs::read_to_string("hfuzz_workspace/Fuzzing/SIGABRT.PC.7ffff7c67d22.STACK.ec628af68.CODE.-6.ADDR.0.INSTR.[NOT_MMAPED].fuzz").unwrap();
+        println!("{:?}", fuzz);
+        eval_str(fuzz.as_str());
+    }
 }
