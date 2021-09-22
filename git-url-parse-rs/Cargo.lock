@@ -41,14 +41,6 @@ dependencies = [
 
 [[package]]
 name = "git-url-parse"
-version = "0.1.0"
-dependencies = [
- "git-url-parse 0.3.1",
- "honggfuzz",
-]
-
-[[package]]
-name = "git-url-parse"
 version = "0.3.1"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "ad6e3b1adb6fd23071df9ec0d5042636daff11333e8bcd7ed3d1dd7ad4f964a9"
@@ -59,6 +51,14 @@ dependencies = [
  "strum",
  "strum_macros",
  "url",
+]
+
+[[package]]
+name = "git-url-parse-rs"
+version = "0.1.0"
+dependencies = [
+ "git-url-parse",
+ "honggfuzz",
 ]
 
 [[package]]

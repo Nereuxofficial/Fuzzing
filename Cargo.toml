@@ -1,0 +1,12 @@
+[package]
+name = "Fuzzing"
+version = "0.1.0"
+edition = "2021"
+
+members = [
+    "git-url-parse",
+
+]
+[[bin]]
+name="cli"
+path = "cli.rs"
