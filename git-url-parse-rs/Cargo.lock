@@ -19,9 +19,9 @@ checksum = "595d3cfa7a60d4555cb5067b99f07142a08ea778de5cf993f7b75c7d8fabc486"
 
 [[package]]
 name = "arbitrary"
-version = "1.0.1"
+version = "1.0.2"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "237430fd6ed3740afe94eefcc278ae21e050285be882804e0d6e8695f0c94691"
+checksum = "577b08a4acd7b99869f863c50011b01eb73424ccc798ecd996f2e24817adfca7"
 
 [[package]]
 name = "cfg-if"
@@ -40,10 +40,17 @@ dependencies = [
 ]
 
 [[package]]
+name = "fuzzing"
+version = "0.1.0"
+dependencies = [
+ "git-url-parse",
+ "honggfuzz",
+]
+
+[[package]]
 name = "git-url-parse"
 version = "0.3.1"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "ad6e3b1adb6fd23071df9ec0d5042636daff11333e8bcd7ed3d1dd7ad4f964a9"
+source = "git+https://github.com/tjtelan/git-url-parse-rs#6cb3b8d60f53856d449888a2a7932c708ac416fa"
 dependencies = [
  "anyhow",
  "log",
@@ -51,14 +58,6 @@ dependencies = [
  "strum",
  "strum_macros",
  "url",
-]
-
-[[package]]
-name = "git-url-parse-rs"
-version = "0.1.0"
-dependencies = [
- "git-url-parse",
- "honggfuzz",
 ]
 
 [[package]]
@@ -100,9 +99,9 @@ checksum = "e2abad23fbc42b3700f2f279844dc832adb2b2eb069b2df918f455c4e18cc646"
 
 [[package]]
 name = "libc"
-version = "0.2.99"
+version = "0.2.102"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "a7f823d141fe0a24df1e23b4af4e3c7ba9e5966ec514ea068c93024aa7deb765"
+checksum = "a2a5ac8f984bfcf3a823267e5fde638acc3325f6496633a5da6bb6eb2171e103"
 
 [[package]]
 name = "log"

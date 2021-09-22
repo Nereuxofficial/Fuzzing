@@ -1,0 +1,47 @@
+=====================================================================
+TIME: 2021-09-22.11:13:54
+=====================================================================
+FUZZER ARGS:
+ mutationsPerRun : 5
+ externalCmd     : NULL
+ fuzzStdin       : FALSE
+ timeout         : 1 (sec)
+ ignoreAddr      : (nil)
+ ASLimit         : 0 (MiB)
+ RSSLimit        : 0 (MiB)
+ DATALimit       : 0 (MiB)
+ wordlistFile    : NULL
+ dynFileMethod   : 
+ fuzzTarget      : hfuzz_target/x86_64-unknown-linux-gnu/release/fuzzing 
+CRASH:
+DESCRIPTION: 
+ORIG_FNAME: 00000000000000000000000000000000.00000000.honggfuzz.cov
+FUZZ_FNAME: hfuzz_workspace/fuzzing/SIGABRT.PC.7ffff7c72d22.STACK.cd3d0f7cb.CODE.-6.ADDR.0.INSTR.mov____0x108(%rsp),%rax.fuzz
+PID: 235046
+SIGNAL: SIGABRT (6)
+PC: 0x7ffff7c72d22
+FAULT ADDRESS: 0x0
+INSTRUCTION: mov____0x108(%rsp),%rax
+STACK HASH: 0000000cd3d0f7cb
+STACK:
+ <0x00007ffff7c5c862> [func:UNKNOWN file: line:0 module:/usr/lib/libc-2.33.so]
+ <0x00005555556cc8a7> [func:UNKNOWN file: line:0 module:/home/benedikt/CLionProjects/Fuzzing/exmex/hfuzz_target/x86_64-unknown-linux-gnu/release/fuzzing]
+ <0x00005555555954f6> [func:UNKNOWN file: line:0 module:/home/benedikt/CLionProjects/Fuzzing/exmex/hfuzz_target/x86_64-unknown-linux-gnu/release/fuzzing]
+ <0x00005555555c67a7> [func:UNKNOWN file: line:0 module:/home/benedikt/CLionProjects/Fuzzing/exmex/hfuzz_target/x86_64-unknown-linux-gnu/release/fuzzing]
+ <0x00005555556c9b59> [func:UNKNOWN file: line:0 module:/home/benedikt/CLionProjects/Fuzzing/exmex/hfuzz_target/x86_64-unknown-linux-gnu/release/fuzzing]
+ <0x00005555556c9600> [func:UNKNOWN file: line:0 module:/home/benedikt/CLionProjects/Fuzzing/exmex/hfuzz_target/x86_64-unknown-linux-gnu/release/fuzzing]
+ <0x00005555556c7e94> [func:UNKNOWN file: line:0 module:/home/benedikt/CLionProjects/Fuzzing/exmex/hfuzz_target/x86_64-unknown-linux-gnu/release/fuzzing]
+ <0x00005555556c9569> [func:UNKNOWN file: line:0 module:/home/benedikt/CLionProjects/Fuzzing/exmex/hfuzz_target/x86_64-unknown-linux-gnu/release/fuzzing]
+ <0x0000555555596151> [func:UNKNOWN file: line:0 module:/home/benedikt/CLionProjects/Fuzzing/exmex/hfuzz_target/x86_64-unknown-linux-gnu/release/fuzzing]
+ <0x0000555555596243> [func:UNKNOWN file: line:0 module:/home/benedikt/CLionProjects/Fuzzing/exmex/hfuzz_target/x86_64-unknown-linux-gnu/release/fuzzing]
+ <0x00005555555b794d> [func:UNKNOWN file: line:0 module:/home/benedikt/CLionProjects/Fuzzing/exmex/hfuzz_target/x86_64-unknown-linux-gnu/release/fuzzing]
+ <0x00005555555a9058> [func:UNKNOWN file: line:0 module:/home/benedikt/CLionProjects/Fuzzing/exmex/hfuzz_target/x86_64-unknown-linux-gnu/release/fuzzing]
+ <0x00005555555a91ba> [func:UNKNOWN file: line:0 module:/home/benedikt/CLionProjects/Fuzzing/exmex/hfuzz_target/x86_64-unknown-linux-gnu/release/fuzzing]
+ <0x00005555555b8055> [func:UNKNOWN file: line:0 module:/home/benedikt/CLionProjects/Fuzzing/exmex/hfuzz_target/x86_64-unknown-linux-gnu/release/fuzzing]
+ <0x00005555555ae03a> [func:UNKNOWN file: line:0 module:/home/benedikt/CLionProjects/Fuzzing/exmex/hfuzz_target/x86_64-unknown-linux-gnu/release/fuzzing]
+ <0x00005555555b8528> [func:UNKNOWN file: line:0 module:/home/benedikt/CLionProjects/Fuzzing/exmex/hfuzz_target/x86_64-unknown-linux-gnu/release/fuzzing]
+ <0x00005555556ca03a> [func:UNKNOWN file: line:0 module:/home/benedikt/CLionProjects/Fuzzing/exmex/hfuzz_target/x86_64-unknown-linux-gnu/release/fuzzing]
+ <0x00005555555b84fb> [func:UNKNOWN file: line:0 module:/home/benedikt/CLionProjects/Fuzzing/exmex/hfuzz_target/x86_64-unknown-linux-gnu/release/fuzzing]
+ <0x00007ffff7c5db25> [func:UNKNOWN file: line:0 module:/usr/lib/libc-2.33.so]
+ <0x0000555555596aae> [func:UNKNOWN file: line:0 module:/home/benedikt/CLionProjects/Fuzzing/exmex/hfuzz_target/x86_64-unknown-linux-gnu/release/fuzzing]
+=====================================================================

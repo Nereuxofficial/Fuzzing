@@ -5,7 +5,7 @@ edition = "2021"
 
 members = [
     "git-url-parse",
-
+    "exmex-fuzzing",
 ]
 [[bin]]
 name="cli"

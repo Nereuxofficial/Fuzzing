@@ -14,7 +14,7 @@ cd [PROJECT_NAME]
 
 and run this project via:
 ```
-cargo hfuzz run Fuzzing
+cargo hfuzz run fuzzing
 ```
 
 It's also pretty easy to fuzz another project by replacing the library and 

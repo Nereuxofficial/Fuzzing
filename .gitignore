@@ -1,2 +1,5 @@
 /target
 /.idea/
+/*/hfuzz_workspace/fuzzing/input/
+/*/hfuzz_target
+/*/target

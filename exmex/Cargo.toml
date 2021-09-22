@@ -7,4 +7,4 @@ edition = "2021"
 
 [dependencies]
 honggfuzz = "0.5.54"
-git-url-parse = {git= "https://github.com/tjtelan/git-url-parse-rs"}
+exmex = { git = "https://github.com/bertiqwerty/exmex/" }
