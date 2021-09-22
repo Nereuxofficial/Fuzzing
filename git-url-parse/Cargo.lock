@@ -3,14 +3,6 @@
 version = 3
 
 [[package]]
-name = "Fuzzing"
-version = "0.1.0"
-dependencies = [
- "git-url-parse",
- "honggfuzz",
-]
-
-[[package]]
 name = "aho-corasick"
 version = "0.7.18"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -45,6 +37,14 @@ checksum = "5fc25a87fa4fd2094bffb06925852034d90a17f0d1e05197d4956d3555752191"
 dependencies = [
  "matches",
  "percent-encoding",
+]
+
+[[package]]
+name = "git-url-parse"
+version = "0.1.0"
+dependencies = [
+ "git-url-parse 0.3.1",
+ "honggfuzz",
 ]
 
 [[package]]

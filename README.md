@@ -7,6 +7,11 @@ To use them install [hongfuzz-rs](https://github.com/rust-fuzz/honggfuzz-rs):
 cargo install honggfuzz
 ```
 
+Then go into a project folder:
+```bash
+cd [PROJECT_NAME]
+```
+
 and run this project via:
 ```
 cargo hfuzz run Fuzzing
